@@ -1,0 +1,6 @@
+interface:
+  display_name: "Codex Visible Diff"
+  short_description: "Edit via apply_patch heredoc so Codex renders diffs"
+  default_prompt: "Use $codex-visible-diff to make my Codex file edits show up as reviewable diffs."
+policy:
+  allow_implicit_invocation: true
